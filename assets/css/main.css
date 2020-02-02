@@ -1,0 +1,135 @@
+
+*{
+    box-sizing: border-box;
+    margin:0,auto;
+    
+}
+body{
+
+
+    background-color: rgba(30, 250, 48, 0.4);
+    font-size: calc(16px + 0.5vw);
+    line-height: calc(1.1em + 0.5vw);
+    margin: .5em;
+
+}
+#logo img{
+  display:block;
+
+}
+video{
+    width:100%;
+
+}
+#breakcontainer{
+    background-image:url("../img/breakfast-lg.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+#lunchcontainer{
+    background-image:url("../img/lunch-lg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% contain;
+    
+}
+li{
+    list-style: none;
+}
+h1,h2{
+    background-color:hsla(120,100%,25%,0.3);
+    font-size: 2.5em;
+    font-size: calc(20px + 1.5vw);
+    display:block;
+    text-align:center;
+}
+#menu{
+    display: flex;
+    flex:column wrap;
+    justify-content: space-between;
+}
+h3{
+vertical-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+#videobc video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+a{
+    text-decoration:none;
+    text-align: center;
+}
+a:link{
+    color:black;
+}
+a:hover{
+    color:rgb(128,0,0);
+}
+img{
+    
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+ 
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+p::first-letter {
+    float: left;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: cursive;
+    padding-right: 2px;
+   
+
+ }
+ p::first-line {
+    font-weight: bold;
+    font-size: 1.2em;
+ }
+ li:nth-child(1) {
+    color:rgb(128,0,0);
+ }
+ li:nth-child(2) {
+    color:rgb(128,0,0);
+ }
+ ul > li:last-child {
+    color:rgb(128,0,0);
+ }
+ blockquote > p{
+     text-align: center;
+ }
+ section > p{
+     color:black;
+     font-size: large;
+ }
+ h2 ~ ul{
+    color:whitesmoke;
+ }
+ div#new{
+     height:40px;
+     display:table-cell;
+     vertical-align:bottom;
+     font-size: 1.5em;
+     line-height: 2em;
+     text-transform: uppercase;
+     
+ }
+ footer{
+     margin-top: 20px;
+     padding-left: 2em;
+     display: table-cell;
+ }
